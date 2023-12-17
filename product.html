@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Product - Redstore</title>
+
+    <!-- Css File -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="product.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+
+    <!-- Navbar -->
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/logo.png" alt="Logo"></a>
+            </div>
+            <nav>
+                <ul id="menuItems" class="toggleBtn">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./product.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="./account.html">Account</a></li>
+                </ul>
+            </nav>
+
+            <img src="./images/cart.png" width="50px" height="50px" alt="cart-icon">
+
+            <img src="./images/menu.png" class="menu-icon" onclick="showMenuItem()">
+        </div>
+    </div>
+
+
+    <!-- Featured Product -->
+    <div class="sm-container">
+        <div class="row row-2">
+            <h2>All Product</h2>
+
+            <select>
+                <option>Default Shorting</option>
+                <option>Short by Price</option>
+                <option>Short by Popularity</option>
+                <option>Short by Rating</option>
+                <option>Short by Sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/product-1.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-2.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-3.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-4.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-5.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-6.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-7.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-8.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-9.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-10.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-11.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-12.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span><i class="bi bi-arrow-right"></i></span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="./images/play-store.png" alt="">
+                        <img src="./images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./images/logo-white.png" alt="">
+                    <p>Our Purpose Is To Sustainable Make The Pleasure and Benefits of sport Accessible to the many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupens</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - Sourabh Chuhan</p>
+    </div>
+
+    <!--script  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
